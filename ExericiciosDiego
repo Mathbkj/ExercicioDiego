@@ -1,0 +1,20 @@
+String aI = "AvaliacaoIntegral";
+     double pontuacaoMax = 30;
+     double notaAI = console.nextDouble();
+     return aI;
+     return "vale"+pontuacaoMax;
+     
+     final double resultadoA3 = Main.notas[2];
+     double resultadoA2 = Main.notas[1];
+     double resultadoA1 = Main.notas[0];
+     
+     if(resultadoA2<resultadoA1)
+    	 System.out.println(notaAI=resultadoA2);
+     else if(resultadoA1<resultadoA2)
+    	 System.out.println(notaAI=resultadoA1);
+     double resultadoFinal = resultadoA1+resultadoA2+resultadoA3;
+     
+     if(resultadoFinal>=70)
+    	 System.out.println("Aprovado");
+     else if(resultadoFinal<70)
+    	 System.out.println("Reprovado");
